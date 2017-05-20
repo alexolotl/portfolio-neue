@@ -1,8 +1,6 @@
-import Express from 'express';
-import { Server } from 'http';
+var Express = require('express');
 
 const app = new Express();
-const server = new Server(app);
 
 console.log('hi');
 
