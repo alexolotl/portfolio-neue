@@ -4,6 +4,8 @@ import { Server } from 'http';
 const app = new Express();
 const server = new Server(app);
 
+console.log('hi');
+
 app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname + '/dist/index.html'));
 });
