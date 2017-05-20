@@ -3,3 +3,38 @@
   width: 120px;
   margin: 1.5rem auto;
 }
+
+@keyframes looper {
+  0% {
+    left:0;
+  }
+  100% {
+    left:-300vw;
+  }
+}
+
+.name-title {
+  font-family: Fenix;
+  color: transparent;
+  font-size: 3em;
+  -webkit-text-stroke: 1px white;
+  background-color: rgba(0,0,0,1);
+  position: fixed;
+  width: 100vw;
+  white-space: nowrap;
+  margin: 0;
+  left: 0;
+  bottom: 0;
+  line-height:.7;
+}
+.name-title span {
+  margin-right: 50px;
+  margin-left:0;
+}
+
+.fullscreen-shader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -10;
+}
