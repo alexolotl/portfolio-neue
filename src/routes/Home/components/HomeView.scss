@@ -16,16 +16,19 @@
 .name-title {
   font-family: Fenix;
   color: transparent;
+  background-color: black;
   font-size: 3em;
+  letter-spacing: 3px;
   -webkit-text-stroke: 1px white;
-  background-color: rgba(0,0,0,1);
   position: fixed;
-  width: 100vw;
+  min-width: 100vh;
   white-space: nowrap;
   margin: 0;
-  left: 0;
+  line-height:1;
   bottom: 0;
-  line-height:.7;
+  left: 0;
+  transform-origin: left;
+  transform: rotate(-90deg) translate(-25%, 100%);
 }
 .name-title span {
   margin-right: 50px;
